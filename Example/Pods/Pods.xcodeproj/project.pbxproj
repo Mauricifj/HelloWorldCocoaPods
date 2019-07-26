@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		16CB484FAC20860AA3555802B67F7726 /* Pods-HelloWorldCocoaPods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9751878FFEB22FA4C52628C6A8DEA22E /* Pods-HelloWorldCocoaPods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41201BF6C724FBFADE7C6C448E4E342A /* Pods-HelloWorldCocoaPods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0BB04C12849B6C53E421E49283D53D /* Pods-HelloWorldCocoaPods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527C3F5B22EB5DBD00142851 /* HelloWorld.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527C3F5A22EB5DBD00142851 /* HelloWorld.storyboard */; };
 		6645DE55F14B27BCE35AA659F57F9AB8 /* Pods-HelloWorldCocoaPods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD845450CD6A0BB721EFE8EE72BFF8D3 /* Pods-HelloWorldCocoaPods_Example-dummy.m */; };
 		B3049BA76079BA2475F5BEA2BD03D2DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		BA800DBDBE7C13C6CFC9CBA0DA4DA533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -42,6 +43,7 @@
 		2571D7FDE5EBEE4B04F0395D40882604 /* HelloWorldCocoaPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HelloWorldCocoaPods-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		49A54A0B6B4A2F40258313CA614D85E7 /* Pods-HelloWorldCocoaPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldCocoaPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		527C3F5A22EB5DBD00142851 /* HelloWorld.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HelloWorld.storyboard; sourceTree = "<group>"; };
 		5402C089FABEEF1706BAF00A69954C80 /* Pods_HelloWorldCocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorldCocoaPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B873B30F9A7EAF7ADC0CE8C59BE42FB /* Pods-HelloWorldCocoaPods_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldCocoaPods_Tests-Info.plist"; sourceTree = "<group>"; };
 		8001277BF3F5B837AA2C927287BDB4A6 /* Pods-HelloWorldCocoaPods_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWorldCocoaPods_Tests.modulemap"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 		527C3F5222EB1DD400142851 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				527C3F5A22EB5DBD00142851 /* HelloWorld.storyboard */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527C3F5B22EB5DBD00142851 /* HelloWorld.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
