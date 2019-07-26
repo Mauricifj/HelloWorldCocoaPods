@@ -1,0 +1,6 @@
+framework module HelloWorldCocoaPods {
+  umbrella header "HelloWorldCocoaPods-umbrella.h"
+
+  export *
+  module * { export * }
+}

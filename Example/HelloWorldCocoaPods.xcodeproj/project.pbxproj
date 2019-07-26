@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2846AFBF6D09D8F30EF2B0F6 /* Pods_HelloWorldCocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorldCocoaPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		35A50B615225E07BB13D3245 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		35A50B615225E07BB13D3245 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C58C1DE51DC2F5E8626F5D5 /* Pods_HelloWorldCocoaPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorldCocoaPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5697B351AD15A058F04861 /* Pods-HelloWorldCocoaPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldCocoaPods_Example.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldCocoaPods_Example/Pods-HelloWorldCocoaPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5C49FF851FB5041FE7B39831 /* Pods-HelloWorldCocoaPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldCocoaPods_Example.release.xcconfig"; path = "Target Support Files/Pods-HelloWorldCocoaPods_Example/Pods-HelloWorldCocoaPods_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7487D5A40A256A2EC703680F /* Pods-HelloWorldCocoaPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldCocoaPods_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldCocoaPods_Tests/Pods-HelloWorldCocoaPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		929DC96FFDF3D54F685D4BCC /* Pods-HelloWorldCocoaPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldCocoaPods_Tests.release.xcconfig"; path = "Target Support Files/Pods-HelloWorldCocoaPods_Tests/Pods-HelloWorldCocoaPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B4921465FE2427110F3A1EDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CB499F5203A349A63ECF21E4 /* HelloWorldCocoaPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HelloWorldCocoaPods.podspec; path = ../HelloWorldCocoaPods.podspec; sourceTree = "<group>"; };
+		B4921465FE2427110F3A1EDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CB499F5203A349A63ECF21E4 /* HelloWorldCocoaPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HelloWorldCocoaPods.podspec; path = ../HelloWorldCocoaPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				7487D5A40A256A2EC703680F /* Pods-HelloWorldCocoaPods_Tests.debug.xcconfig */,
 				929DC96FFDF3D54F685D4BCC /* Pods-HelloWorldCocoaPods_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

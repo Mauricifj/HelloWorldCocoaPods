@@ -1,0 +1,22 @@
+{
+  "name": "HelloWorldCocoaPods",
+  "version": "0.1.0",
+  "summary": "A short description of HelloWorldCocoaPods.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Maurici Ferreira Junior/HelloWorldCocoaPods",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Maurici Ferreira Junior": "m.f.j@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Maurici Ferreira Junior/HelloWorldCocoaPods.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HelloWorldCocoaPods/Classes/**/*"
+}

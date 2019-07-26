@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DC7BF895AF1371EF9DDB5893AF3528 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7650EDAE4AE7F832C9C1AE69E25F8A /* ReplaceMe.swift */; };
+		16CB484FAC20860AA3555802B67F7726 /* Pods-HelloWorldCocoaPods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9751878FFEB22FA4C52628C6A8DEA22E /* Pods-HelloWorldCocoaPods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41201BF6C724FBFADE7C6C448E4E342A /* Pods-HelloWorldCocoaPods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0BB04C12849B6C53E421E49283D53D /* Pods-HelloWorldCocoaPods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6645DE55F14B27BCE35AA659F57F9AB8 /* Pods-HelloWorldCocoaPods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD845450CD6A0BB721EFE8EE72BFF8D3 /* Pods-HelloWorldCocoaPods_Example-dummy.m */; };
+		B3049BA76079BA2475F5BEA2BD03D2DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BA800DBDBE7C13C6CFC9CBA0DA4DA533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BB99345031DEB1330F7932F58538632A /* HelloWorldCocoaPods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 833E771B7FE33D8956C8BD0469B2ED0F /* HelloWorldCocoaPods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7380D373BC2346C7042BAC6BE366FD7 /* HelloWorldCocoaPods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2571D7FDE5EBEE4B04F0395D40882604 /* HelloWorldCocoaPods-dummy.m */; };
+		CE8B49B123B67DFFAA8BA0268811808B /* Pods-HelloWorldCocoaPods_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B64DA750E5C025CEEBA1E3041F556 /* Pods-HelloWorldCocoaPods_Tests-dummy.m */; };
+		CF38BB0D04524378D5B0B2315A5BD463 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A0B768AFDEC12EFC0D63AECAAE073C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F2CFB80FE978EE229673BAEA9F5BEEE;
+			remoteInfo = HelloWorldCocoaPods;
+		};
+		C4DFAB57F0B43396FFAD26AD36252490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A937257911EF643181CA44508028E8E4;
+			remoteInfo = "Pods-HelloWorldCocoaPods_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CADBF26423D2DC230F29F6073BEBEC8 /* Pods-HelloWorldCocoaPods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWorldCocoaPods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D7650EDAE4AE7F832C9C1AE69E25F8A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HelloWorldCocoaPods/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1DC933FA3F387667EB62DAA07DF681BF /* HelloWorldCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HelloWorldCocoaPods.framework; path = HelloWorldCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B3EC37BD7E92832F7AAAEAE10DE165 /* HelloWorldCocoaPods-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HelloWorldCocoaPods-Info.plist"; sourceTree = "<group>"; };
+		2571D7FDE5EBEE4B04F0395D40882604 /* HelloWorldCocoaPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HelloWorldCocoaPods-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49A54A0B6B4A2F40258313CA614D85E7 /* Pods-HelloWorldCocoaPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldCocoaPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5402C089FABEEF1706BAF00A69954C80 /* Pods_HelloWorldCocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWorldCocoaPods_Tests.framework; path = "Pods-HelloWorldCocoaPods_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B873B30F9A7EAF7ADC0CE8C59BE42FB /* Pods-HelloWorldCocoaPods_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldCocoaPods_Tests-Info.plist"; sourceTree = "<group>"; };
+		8001277BF3F5B837AA2C927287BDB4A6 /* Pods-HelloWorldCocoaPods_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWorldCocoaPods_Tests.modulemap"; sourceTree = "<group>"; };
+		833E771B7FE33D8956C8BD0469B2ED0F /* HelloWorldCocoaPods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HelloWorldCocoaPods-umbrella.h"; sourceTree = "<group>"; };
+		844AD9387124FB3B316A1502CA6A28D4 /* HelloWorldCocoaPods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HelloWorldCocoaPods.xcconfig; sourceTree = "<group>"; };
+		8CDE968B8A63897EB68460B188B05E37 /* Pods-HelloWorldCocoaPods_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWorldCocoaPods_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9418CC11581CF44EF4245C12865042F0 /* Pods-HelloWorldCocoaPods_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWorldCocoaPods_Example.modulemap"; sourceTree = "<group>"; };
+		9751878FFEB22FA4C52628C6A8DEA22E /* Pods-HelloWorldCocoaPods_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWorldCocoaPods_Example-umbrella.h"; sourceTree = "<group>"; };
+		9C74C0390F1BD725D6F055F491428CB5 /* Pods-HelloWorldCocoaPods_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldCocoaPods_Example-Info.plist"; sourceTree = "<group>"; };
+		9C7B64DA750E5C025CEEBA1E3041F556 /* Pods-HelloWorldCocoaPods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWorldCocoaPods_Tests-dummy.m"; sourceTree = "<group>"; };
+		9C8F22E87D675F5FD499CA7014E1615B /* Pods-HelloWorldCocoaPods_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWorldCocoaPods_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5747DC26648149EF57D012C66ABD29 /* Pods-HelloWorldCocoaPods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldCocoaPods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A98668B37EE7D6B23F69F751067EBC36 /* Pods-HelloWorldCocoaPods_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldCocoaPods_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA0BB04C12849B6C53E421E49283D53D /* Pods-HelloWorldCocoaPods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWorldCocoaPods_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD845450CD6A0BB721EFE8EE72BFF8D3 /* Pods-HelloWorldCocoaPods_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWorldCocoaPods_Example-dummy.m"; sourceTree = "<group>"; };
+		AED3DC24499E6AAF3E2BD904732B5231 /* HelloWorldCocoaPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HelloWorldCocoaPods-prefix.pch"; sourceTree = "<group>"; };
+		AFF63675FCA6E2B834D9F6E03DC9270E /* Pods-HelloWorldCocoaPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldCocoaPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B63D3F811CD997F273E23922B7C2E7DE /* HelloWorldCocoaPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HelloWorldCocoaPods.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C161647ADE11B62B5501713A45DB0765 /* Pods_HelloWorldCocoaPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWorldCocoaPods_Example.framework; path = "Pods-HelloWorldCocoaPods_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FCB001A9CCF4D5C5BF75133104B23C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C9E9C88AEAF5E33B078FBDE126D20A6F /* Pods-HelloWorldCocoaPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldCocoaPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E380347E130D6FE288BECDB39F7AE997 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E95D4B8720874C064B84342D6FE75CB0 /* HelloWorldCocoaPods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HelloWorldCocoaPods.modulemap; sourceTree = "<group>"; };
+		F21AAB9F55481BD7AB5F967865FEB1D6 /* Pods-HelloWorldCocoaPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldCocoaPods_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73A5C568402776334A92167015D656B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA800DBDBE7C13C6CFC9CBA0DA4DA533 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16C0528705016D871C9ECD92E4364AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3049BA76079BA2475F5BEA2BD03D2DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A1FC2038489779D6CF8302010FEAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF38BB0D04524378D5B0B2315A5BD463 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095B8C068EEC7630894CC2C4FDA0EFBF /* HelloWorldCocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				0D7650EDAE4AE7F832C9C1AE69E25F8A /* ReplaceMe.swift */,
+				FB1CEC134BAE7F456D1A906BADC63C16 /* Pod */,
+				E605099BB03B75DE16C77EF4545C3D2B /* Support Files */,
+			);
+			name = HelloWorldCocoaPods;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4BFDF6B8AB5283052D6A32E8258970CA /* Pods-HelloWorldCocoaPods_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9418CC11581CF44EF4245C12865042F0 /* Pods-HelloWorldCocoaPods_Example.modulemap */,
+				0CADBF26423D2DC230F29F6073BEBEC8 /* Pods-HelloWorldCocoaPods_Example-acknowledgements.markdown */,
+				A98668B37EE7D6B23F69F751067EBC36 /* Pods-HelloWorldCocoaPods_Example-acknowledgements.plist */,
+				AD845450CD6A0BB721EFE8EE72BFF8D3 /* Pods-HelloWorldCocoaPods_Example-dummy.m */,
+				9C8F22E87D675F5FD499CA7014E1615B /* Pods-HelloWorldCocoaPods_Example-frameworks.sh */,
+				9C74C0390F1BD725D6F055F491428CB5 /* Pods-HelloWorldCocoaPods_Example-Info.plist */,
+				9751878FFEB22FA4C52628C6A8DEA22E /* Pods-HelloWorldCocoaPods_Example-umbrella.h */,
+				49A54A0B6B4A2F40258313CA614D85E7 /* Pods-HelloWorldCocoaPods_Example.debug.xcconfig */,
+				F21AAB9F55481BD7AB5F967865FEB1D6 /* Pods-HelloWorldCocoaPods_Example.release.xcconfig */,
+			);
+			name = "Pods-HelloWorldCocoaPods_Example";
+			path = "Target Support Files/Pods-HelloWorldCocoaPods_Example";
+			sourceTree = "<group>";
+		};
+		714F302BBB4B38B71FC7E3AE6AC7C152 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				095B8C068EEC7630894CC2C4FDA0EFBF /* HelloWorldCocoaPods */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		92CA633AC09CB22A4925F67E15B27FA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DC933FA3F387667EB62DAA07DF681BF /* HelloWorldCocoaPods.framework */,
+				C161647ADE11B62B5501713A45DB0765 /* Pods_HelloWorldCocoaPods_Example.framework */,
+				5402C089FABEEF1706BAF00A69954C80 /* Pods_HelloWorldCocoaPods_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				714F302BBB4B38B71FC7E3AE6AC7C152 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				92CA633AC09CB22A4925F67E15B27FA6 /* Products */,
+				DCBA63273390C70F6D42A27BD6EA4E32 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCBA63273390C70F6D42A27BD6EA4E32 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BFDF6B8AB5283052D6A32E8258970CA /* Pods-HelloWorldCocoaPods_Example */,
+				FA7C2BB1E48A89DAEBF0B9608989E5D5 /* Pods-HelloWorldCocoaPods_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E605099BB03B75DE16C77EF4545C3D2B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E95D4B8720874C064B84342D6FE75CB0 /* HelloWorldCocoaPods.modulemap */,
+				844AD9387124FB3B316A1502CA6A28D4 /* HelloWorldCocoaPods.xcconfig */,
+				2571D7FDE5EBEE4B04F0395D40882604 /* HelloWorldCocoaPods-dummy.m */,
+				24B3EC37BD7E92832F7AAAEAE10DE165 /* HelloWorldCocoaPods-Info.plist */,
+				AED3DC24499E6AAF3E2BD904732B5231 /* HelloWorldCocoaPods-prefix.pch */,
+				833E771B7FE33D8956C8BD0469B2ED0F /* HelloWorldCocoaPods-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HelloWorldCocoaPods";
+			sourceTree = "<group>";
+		};
+		FA7C2BB1E48A89DAEBF0B9608989E5D5 /* Pods-HelloWorldCocoaPods_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8001277BF3F5B837AA2C927287BDB4A6 /* Pods-HelloWorldCocoaPods_Tests.modulemap */,
+				8CDE968B8A63897EB68460B188B05E37 /* Pods-HelloWorldCocoaPods_Tests-acknowledgements.markdown */,
+				9E5747DC26648149EF57D012C66ABD29 /* Pods-HelloWorldCocoaPods_Tests-acknowledgements.plist */,
+				9C7B64DA750E5C025CEEBA1E3041F556 /* Pods-HelloWorldCocoaPods_Tests-dummy.m */,
+				5B873B30F9A7EAF7ADC0CE8C59BE42FB /* Pods-HelloWorldCocoaPods_Tests-Info.plist */,
+				AA0BB04C12849B6C53E421E49283D53D /* Pods-HelloWorldCocoaPods_Tests-umbrella.h */,
+				AFF63675FCA6E2B834D9F6E03DC9270E /* Pods-HelloWorldCocoaPods_Tests.debug.xcconfig */,
+				C9E9C88AEAF5E33B078FBDE126D20A6F /* Pods-HelloWorldCocoaPods_Tests.release.xcconfig */,
+			);
+			name = "Pods-HelloWorldCocoaPods_Tests";
+			path = "Target Support Files/Pods-HelloWorldCocoaPods_Tests";
+			sourceTree = "<group>";
+		};
+		FB1CEC134BAE7F456D1A906BADC63C16 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B63D3F811CD997F273E23922B7C2E7DE /* HelloWorldCocoaPods.podspec */,
+				C4FCB001A9CCF4D5C5BF75133104B23C /* LICENSE */,
+				E380347E130D6FE288BECDB39F7AE997 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30A7800C6E2075A11AFF83F2C58B097D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB99345031DEB1330F7932F58538632A /* HelloWorldCocoaPods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C1DF34450B5B7F9873AC27E2EA476C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41201BF6C724FBFADE7C6C448E4E342A /* Pods-HelloWorldCocoaPods_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C0369165F1156853490F92B2F0161C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CB484FAC20860AA3555802B67F7726 /* Pods-HelloWorldCocoaPods_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F2CFB80FE978EE229673BAEA9F5BEEE /* HelloWorldCocoaPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8D59B9BD2CBD110A02253BBF9D5F89 /* Build configuration list for PBXNativeTarget "HelloWorldCocoaPods" */;
+			buildPhases = (
+				30A7800C6E2075A11AFF83F2C58B097D /* Headers */,
+				97DB6D7D61B7369DA2AEC3A595864F47 /* Sources */,
+				A16C0528705016D871C9ECD92E4364AB /* Frameworks */,
+				67BA64B15DB0C7698B7A415DADA11E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldCocoaPods;
+			productName = HelloWorldCocoaPods;
+			productReference = 1DC933FA3F387667EB62DAA07DF681BF /* HelloWorldCocoaPods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		15E2659E48B01DA802105D25ADFBAF3E /* Pods-HelloWorldCocoaPods_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C841045AF9556F7AC08C68D557C74A39 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldCocoaPods_Tests" */;
+			buildPhases = (
+				B5C1DF34450B5B7F9873AC27E2EA476C /* Headers */,
+				A7A10D9624FECDCB770CFC36910EC62D /* Sources */,
+				73A5C568402776334A92167015D656B7 /* Frameworks */,
+				F980E928375AA7700881FF3DBF3D51DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078814CCB34279733E69E616ED0B716A /* PBXTargetDependency */,
+			);
+			name = "Pods-HelloWorldCocoaPods_Tests";
+			productName = "Pods-HelloWorldCocoaPods_Tests";
+			productReference = 5402C089FABEEF1706BAF00A69954C80 /* Pods_HelloWorldCocoaPods_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A937257911EF643181CA44508028E8E4 /* Pods-HelloWorldCocoaPods_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C19D0D67DF31D8A3B4FFEC3C6F3BAD6 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldCocoaPods_Example" */;
+			buildPhases = (
+				D1C0369165F1156853490F92B2F0161C /* Headers */,
+				159E6CA8FE075E47943A704293B245FF /* Sources */,
+				D6A1FC2038489779D6CF8302010FEAF9 /* Frameworks */,
+				3309E637AC75C9EB846CBFB74589721C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD32CF8C3531DCB8D2B8ACD8F3F3880 /* PBXTargetDependency */,
+			);
+			name = "Pods-HelloWorldCocoaPods_Example";
+			productName = "Pods-HelloWorldCocoaPods_Example";
+			productReference = C161647ADE11B62B5501713A45DB0765 /* Pods_HelloWorldCocoaPods_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 92CA633AC09CB22A4925F67E15B27FA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F2CFB80FE978EE229673BAEA9F5BEEE /* HelloWorldCocoaPods */,
+				A937257911EF643181CA44508028E8E4 /* Pods-HelloWorldCocoaPods_Example */,
+				15E2659E48B01DA802105D25ADFBAF3E /* Pods-HelloWorldCocoaPods_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3309E637AC75C9EB846CBFB74589721C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BA64B15DB0C7698B7A415DADA11E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F980E928375AA7700881FF3DBF3D51DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		159E6CA8FE075E47943A704293B245FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6645DE55F14B27BCE35AA659F57F9AB8 /* Pods-HelloWorldCocoaPods_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DB6D7D61B7369DA2AEC3A595864F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7380D373BC2346C7042BAC6BE366FD7 /* HelloWorldCocoaPods-dummy.m in Sources */,
+				01DC7BF895AF1371EF9DDB5893AF3528 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A10D9624FECDCB770CFC36910EC62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8B49B123B67DFFAA8BA0268811808B /* Pods-HelloWorldCocoaPods_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078814CCB34279733E69E616ED0B716A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HelloWorldCocoaPods_Example";
+			target = A937257911EF643181CA44508028E8E4 /* Pods-HelloWorldCocoaPods_Example */;
+			targetProxy = C4DFAB57F0B43396FFAD26AD36252490 /* PBXContainerItemProxy */;
+		};
+		BFD32CF8C3531DCB8D2B8ACD8F3F3880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HelloWorldCocoaPods;
+			target = 0F2CFB80FE978EE229673BAEA9F5BEEE /* HelloWorldCocoaPods */;
+			targetProxy = 3A0B768AFDEC12EFC0D63AECAAE073C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0288F4958811D7EC1C60BD40BD85060C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF63675FCA6E2B834D9F6E03DC9270E /* Pods-HelloWorldCocoaPods_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldCocoaPods_Tests/Pods-HelloWorldCocoaPods_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldCocoaPods_Tests/Pods-HelloWorldCocoaPods_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10B06674720EFBB91157B140DD1F89F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844AD9387124FB3B316A1502CA6A28D4 /* HelloWorldCocoaPods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods.modulemap";
+				PRODUCT_MODULE_NAME = HelloWorldCocoaPods;
+				PRODUCT_NAME = HelloWorldCocoaPods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		193526EBEEF4DE9E422F39EF427D5F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A54A0B6B4A2F40258313CA614D85E7 /* Pods-HelloWorldCocoaPods_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldCocoaPods_Example/Pods-HelloWorldCocoaPods_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldCocoaPods_Example/Pods-HelloWorldCocoaPods_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65B81DE1723986ACBD13198C132E8269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E9C88AEAF5E33B078FBDE126D20A6F /* Pods-HelloWorldCocoaPods_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldCocoaPods_Tests/Pods-HelloWorldCocoaPods_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldCocoaPods_Tests/Pods-HelloWorldCocoaPods_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74F00B54D229448C0EE1ADB445BF075B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21AAB9F55481BD7AB5F967865FEB1D6 /* Pods-HelloWorldCocoaPods_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloWorldCocoaPods_Example/Pods-HelloWorldCocoaPods_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloWorldCocoaPods_Example/Pods-HelloWorldCocoaPods_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8CBC0CB62A43983FA40365C69D7CB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 844AD9387124FB3B316A1502CA6A28D4 /* HelloWorldCocoaPods.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods.modulemap";
+				PRODUCT_MODULE_NAME = HelloWorldCocoaPods;
+				PRODUCT_NAME = HelloWorldCocoaPods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C19D0D67DF31D8A3B4FFEC3C6F3BAD6 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldCocoaPods_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193526EBEEF4DE9E422F39EF427D5F5F /* Debug */,
+				74F00B54D229448C0EE1ADB445BF075B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C841045AF9556F7AC08C68D557C74A39 /* Build configuration list for PBXNativeTarget "Pods-HelloWorldCocoaPods_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0288F4958811D7EC1C60BD40BD85060C /* Debug */,
+				65B81DE1723986ACBD13198C132E8269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8D59B9BD2CBD110A02253BBF9D5F89 /* Build configuration list for PBXNativeTarget "HelloWorldCocoaPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B06674720EFBB91157B140DD1F89F7 /* Debug */,
+				E8CBC0CB62A43983FA40365C69D7CB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
