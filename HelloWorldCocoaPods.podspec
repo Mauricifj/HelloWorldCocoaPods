@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Source/**/*.swift'
   
   s.swift_version = '5.0'
-  s.plataforms = {
+  s.platforms = {
       "ios": "12.0"
   }
   # s.resource_bundles = {
