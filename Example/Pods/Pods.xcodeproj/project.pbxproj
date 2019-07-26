@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01DC7BF895AF1371EF9DDB5893AF3528 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7650EDAE4AE7F832C9C1AE69E25F8A /* ReplaceMe.swift */; };
 		16CB484FAC20860AA3555802B67F7726 /* Pods-HelloWorldCocoaPods_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9751878FFEB22FA4C52628C6A8DEA22E /* Pods-HelloWorldCocoaPods_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41201BF6C724FBFADE7C6C448E4E342A /* Pods-HelloWorldCocoaPods_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0BB04C12849B6C53E421E49283D53D /* Pods-HelloWorldCocoaPods_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6645DE55F14B27BCE35AA659F57F9AB8 /* Pods-HelloWorldCocoaPods_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD845450CD6A0BB721EFE8EE72BFF8D3 /* Pods-HelloWorldCocoaPods_Example-dummy.m */; };
@@ -38,13 +37,12 @@
 
 /* Begin PBXFileReference section */
 		0CADBF26423D2DC230F29F6073BEBEC8 /* Pods-HelloWorldCocoaPods_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWorldCocoaPods_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0D7650EDAE4AE7F832C9C1AE69E25F8A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HelloWorldCocoaPods/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		1DC933FA3F387667EB62DAA07DF681BF /* HelloWorldCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HelloWorldCocoaPods.framework; path = HelloWorldCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC933FA3F387667EB62DAA07DF681BF /* HelloWorldCocoaPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloWorldCocoaPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B3EC37BD7E92832F7AAAEAE10DE165 /* HelloWorldCocoaPods-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HelloWorldCocoaPods-Info.plist"; sourceTree = "<group>"; };
 		2571D7FDE5EBEE4B04F0395D40882604 /* HelloWorldCocoaPods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HelloWorldCocoaPods-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		49A54A0B6B4A2F40258313CA614D85E7 /* Pods-HelloWorldCocoaPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldCocoaPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5402C089FABEEF1706BAF00A69954C80 /* Pods_HelloWorldCocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWorldCocoaPods_Tests.framework; path = "Pods-HelloWorldCocoaPods_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5402C089FABEEF1706BAF00A69954C80 /* Pods_HelloWorldCocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorldCocoaPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B873B30F9A7EAF7ADC0CE8C59BE42FB /* Pods-HelloWorldCocoaPods_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldCocoaPods_Tests-Info.plist"; sourceTree = "<group>"; };
 		8001277BF3F5B837AA2C927287BDB4A6 /* Pods-HelloWorldCocoaPods_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelloWorldCocoaPods_Tests.modulemap"; sourceTree = "<group>"; };
 		833E771B7FE33D8956C8BD0469B2ED0F /* HelloWorldCocoaPods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HelloWorldCocoaPods-umbrella.h"; sourceTree = "<group>"; };
@@ -55,18 +53,18 @@
 		9C74C0390F1BD725D6F055F491428CB5 /* Pods-HelloWorldCocoaPods_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldCocoaPods_Example-Info.plist"; sourceTree = "<group>"; };
 		9C7B64DA750E5C025CEEBA1E3041F556 /* Pods-HelloWorldCocoaPods_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWorldCocoaPods_Tests-dummy.m"; sourceTree = "<group>"; };
 		9C8F22E87D675F5FD499CA7014E1615B /* Pods-HelloWorldCocoaPods_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWorldCocoaPods_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5747DC26648149EF57D012C66ABD29 /* Pods-HelloWorldCocoaPods_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldCocoaPods_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A98668B37EE7D6B23F69F751067EBC36 /* Pods-HelloWorldCocoaPods_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWorldCocoaPods_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AA0BB04C12849B6C53E421E49283D53D /* Pods-HelloWorldCocoaPods_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWorldCocoaPods_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AD845450CD6A0BB721EFE8EE72BFF8D3 /* Pods-HelloWorldCocoaPods_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloWorldCocoaPods_Example-dummy.m"; sourceTree = "<group>"; };
 		AED3DC24499E6AAF3E2BD904732B5231 /* HelloWorldCocoaPods-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HelloWorldCocoaPods-prefix.pch"; sourceTree = "<group>"; };
 		AFF63675FCA6E2B834D9F6E03DC9270E /* Pods-HelloWorldCocoaPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldCocoaPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B63D3F811CD997F273E23922B7C2E7DE /* HelloWorldCocoaPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HelloWorldCocoaPods.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C161647ADE11B62B5501713A45DB0765 /* Pods_HelloWorldCocoaPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloWorldCocoaPods_Example.framework; path = "Pods-HelloWorldCocoaPods_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4FCB001A9CCF4D5C5BF75133104B23C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B63D3F811CD997F273E23922B7C2E7DE /* HelloWorldCocoaPods.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HelloWorldCocoaPods.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C161647ADE11B62B5501713A45DB0765 /* Pods_HelloWorldCocoaPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorldCocoaPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FCB001A9CCF4D5C5BF75133104B23C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C9E9C88AEAF5E33B078FBDE126D20A6F /* Pods-HelloWorldCocoaPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldCocoaPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E380347E130D6FE288BECDB39F7AE997 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E380347E130D6FE288BECDB39F7AE997 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E95D4B8720874C064B84342D6FE75CB0 /* HelloWorldCocoaPods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HelloWorldCocoaPods.modulemap; sourceTree = "<group>"; };
 		F21AAB9F55481BD7AB5F967865FEB1D6 /* Pods-HelloWorldCocoaPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWorldCocoaPods_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,7 +100,7 @@
 		095B8C068EEC7630894CC2C4FDA0EFBF /* HelloWorldCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
-				0D7650EDAE4AE7F832C9C1AE69E25F8A /* ReplaceMe.swift */,
+				527C3F5222EB1DD400142851 /* Source */,
 				FB1CEC134BAE7F456D1A906BADC63C16 /* Pod */,
 				E605099BB03B75DE16C77EF4545C3D2B /* Support Files */,
 			);
@@ -125,6 +123,13 @@
 			);
 			name = "Pods-HelloWorldCocoaPods_Example";
 			path = "Target Support Files/Pods-HelloWorldCocoaPods_Example";
+			sourceTree = "<group>";
+		};
+		527C3F5222EB1DD400142851 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		714F302BBB4B38B71FC7E3AE6AC7C152 /* Development Pods */ = {
@@ -315,6 +320,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					0F2CFB80FE978EE229673BAEA9F5BEEE = {
+						DevelopmentTeam = 99Z7W5J5Y8;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -322,6 +332,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 92CA633AC09CB22A4925F67E15B27FA6 /* Products */;
@@ -373,7 +384,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7380D373BC2346C7042BAC6BE366FD7 /* HelloWorldCocoaPods-dummy.m in Sources */,
-				01DC7BF895AF1371EF9DDB5893AF3528 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,19 +450,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 844AD9387124FB3B316A1502CA6A28D4 /* HelloWorldCocoaPods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 99Z7W5J5Y8;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods.modulemap";
 				PRODUCT_MODULE_NAME = HelloWorldCocoaPods;
@@ -621,8 +632,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -696,19 +706,20 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 844AD9387124FB3B316A1502CA6A28D4 /* HelloWorldCocoaPods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 99Z7W5J5Y8;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HelloWorldCocoaPods/HelloWorldCocoaPods.modulemap";
 				PRODUCT_MODULE_NAME = HelloWorldCocoaPods;
